@@ -4,7 +4,7 @@ function calculate(opt){
     var res=0;
     switch (opt) {
         case 'add':
-            res=a+b;
+            res=(+a)+(+b);
             break;
         case 'sub':
             res=a-b;
