@@ -21,3 +21,6 @@ function calculate(opt){
     document.getElementById("result").innerHTML = res;
 
 }
+function reloading(){
+    location.reload();
+}
